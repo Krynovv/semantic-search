@@ -1,0 +1,100 @@
+{"id": 1, "query_en": "Log-joint probability given a state's log-probability and momentum."}
+{"id": 2, "query_en": "Resolves an option value into options."}
+{"id": 3, "query_en": "r\"\"\" Sets the node data."}
+{"id": 4, "query_en": "Generator that decrypts a content stream using AES 256 in CBC mode."}
+{"id": 5, "query_en": "Create a union (and also shift if desired) of all input `Schedule`s."}
+{"id": 6, "query_en": "Return dict describing the context of this package"}
+{"id": 7, "query_en": "Starts a kernel process and configures the manager to use it."}
+{"id": 8, "query_en": "Read config's variables and apply their values to all its properties"}
+{"id": 9, "query_en": "str: The title for the current frame."}
+{"id": 10, "query_en": "Save the current database into the inactive-db.json file."}
+{"id": 11, "query_en": "Adds argument for config to existing argparser"}
+{"id": 12, "query_en": "This endpoint streams the contents of a file in an allocation directory."}
+{"id": 13, "query_en": "Returns index transforms for ``name``."}
+{"id": 14, "query_en": "Receiver for request-rejected signal to send email notification."}
+{"id": 15, "query_en": "Flat plane parameterization"}
+{"id": 16, "query_en": "Return True if arg is 'on' or 1 and False arg is 'off' or 0. Any other value is raises ValueError."}
+{"id": 17, "query_en": "Returns response and number of retries"}
+{"id": 18, "query_en": "Create the circuits to rotate to points in phase space Args: circuit (QuantumCircuit): The circuit to be appended with tomography state preparation and/or measurements. phis (np.matrix[[complex]]): phis thetas (np.matrix[[complex]]): thetas"}
+{"id": 19, "query_en": "Add aitoff (https://en.wikipedia.org/wiki/Aitoff_projection) projection"}
+{"id": 20, "query_en": "Get the message symbol of the given message id"}
+{"id": 21, "query_en": "Mark the name as consumed and delete it from the to_consume dictionary"}
+{"id": 22, "query_en": "Gets the next colour in the Geckoboard colour list."}
+{"id": 23, "query_en": "Overrideable function that generates the colors to be used by various borderstyles."}
+{"id": 24, "query_en": "Converts the text category to a tasks.Category instance."}
+{"id": 25, "query_en": "Dispatch msg to appropriate recv_foo handler."}
+{"id": 26, "query_en": "Imports a specific query from the rdbms to hdfs"}
+{"id": 27, "query_en": "Return the referer aka the WHOIS server of the current domain extension."}
+{"id": 28, "query_en": "Creates a PDF text stream sandwich."}
+{"id": 29, "query_en": "Pure-Python implementation of itertools.combinations(l, 2)."}
+{"id": 30, "query_en": "Export the CRL as a string."}
+{"id": 31, "query_en": "Return RGBA values of color c"}
+{"id": 32, "query_en": "Define a single season and assign a schedule"}
+{"id": 33, "query_en": "collection search will list all containers for a specific collection. We assume query is the name of a collection"}
+{"id": 34, "query_en": "Return a list of the stargazers of a GitHub repo"}
+{"id": 35, "query_en": "Obtain peaks from a novelty curve using an adaptive threshold."}
+{"id": 36, "query_en": "Creates a copy of a given endpoint with a new service name."}
+{"id": 37, "query_en": "Computes E[log(det(X))] under this Wishart distribution."}
+{"id": 38, "query_en": "For a composite instruction, reverse the order of sub-gates."}
+{"id": 39, "query_en": "Recursively find a menu item by its id (useful for event handlers)"}
+{"id": 40, "query_en": "Convert spherical to Cartesian coordinates. The input can be scalars or 1-dimensional numpy arrays. Note that the angle coordinates follow the astronomical convention of using elevation (declination, latitude) rather than"}
+{"id": 41, "query_en": "Given a list of format specifiers, returns the final access path (e.g. a.b.c[0][1])."}
+{"id": 42, "query_en": "Returns read only property for band nodata value, assuming single band rasters for now."}
+{"id": 43, "query_en": "Push data broadcasted from gateway to device"}
+{"id": 44, "query_en": "Create a new temporary file and write some initial text to it."}
+{"id": 45, "query_en": "Return the 'filtered path'"}
+{"id": 46, "query_en": "Pitch-shift the waveform by `n_steps` half-steps."}
+{"id": 47, "query_en": "Export a numpy array to a HDF5 file."}
+{"id": 48, "query_en": "Execute a Perceval job on RQ."}
+{"id": 49, "query_en": "Give the annotations at the given time. When the tier contains reference annotations this will be returned, check :func:`get_ref_annotation_data_at_time` for the format."}
+{"id": 50, "query_en": "Fetches all the prices for the given arguments"}
+{"id": 51, "query_en": "send gene list to enrichr server"}
+{"id": 52, "query_en": "Associate the header to the control (it could be recreated)"}
+{"id": 53, "query_en": "Get the comments of the given bugs."}
+{"id": 54, "query_en": "Return a list of enrollments for the passed user regid."}
+{"id": 55, "query_en": "Selects odd-even nuclei from the table"}
+{"id": 56, "query_en": "Connect internal signal to port item, this connection is used by simulator and only output port items will be connected"}
+{"id": 57, "query_en": "Adds or updates a typed JSON document in a specific index, making it searchable. `<http://elasticsearch.org/guide/reference/api/index_/>`_"}
+{"id": 58, "query_en": "Flatten lists of indices and ensure bounded by a known dim."}
+{"id": 59, "query_en": "Retrieve the data from the database."}
+{"id": 60, "query_en": "Load a model from the server."}
+{"id": 61, "query_en": "Returns mappable data for a random subset of voxels."}
+{"id": 62, "query_en": "Convenience method for selecting a character."}
+{"id": 63, "query_en": "Defines the security context"}
+{"id": 64, "query_en": "Encodes to hexadecimal ids to big-endian binary."}
+{"id": 65, "query_en": "Merge `svg_file2` in `svg_file1` in the given positions `x_coord`, `y_coord` and `scale`."}
+{"id": 66, "query_en": "A feeder that runs in distinct thread in main process."}
+{"id": 67, "query_en": "Returns a simple fragment"}
+{"id": 68, "query_en": "Finds files at the specified path / prefix, either on S3 or on the local filesystem."}
+{"id": 69, "query_en": "Extracts indentation information for a continued indent."}
+{"id": 70, "query_en": "Check to see if the default cert dir/file environment vars are present."}
+{"id": 71, "query_en": "Connect to the database and get new session number."}
+{"id": 72, "query_en": "set the name of the currently analyzed module and init statistics for it"}
+{"id": 73, "query_en": "Error message when subcommand asked for but doesn't exist"}
+{"id": 74, "query_en": "Gets a postcode object from the lat and long. :param lat: The latitude to look up. :param long: The longitude to look up. :return: The mapping corresponding to the lat"}
+{"id": 75, "query_en": "Renders the chart context and axes into the dict data"}
+{"id": 76, "query_en": "check if name combined with test prefixes or postfixes is found anywhere in the list of basenames"}
+{"id": 77, "query_en": "When an event from enaml occurs, send it out the websocket so the client's browser can update accordingly."}
+{"id": 78, "query_en": "Test the student code."}
+{"id": 79, "query_en": "Clean up files, remove builds."}
+{"id": 80, "query_en": "Add a message to the futures executor."}
+{"id": 81, "query_en": "Create a python value from a BridgePoint constant."}
+{"id": 82, "query_en": "theory : LBRACKET superclauses_sum RBRACKET | LBRACKET superclauses_sum RBRACKET literal_list"}
+{"id": 83, "query_en": "Print log message *msg* to stdout."}
+{"id": 84, "query_en": "Make a variable a list if it is not already"}
+{"id": 85, "query_en": "Like a bulk :meth:`put`."}
+{"id": 86, "query_en": "Extracts pycrypto X509 objects from SSL certificates chain string."}
+{"id": 87, "query_en": "Get information about a single role, for the passed account SIS ID."}
+{"id": 88, "query_en": "Preprocess a panel of genes."}
+{"id": 89, "query_en": "Take an existing Skype token and refresh it, to extend the expiry time without other credentials."}
+{"id": 90, "query_en": "Get cryptographic engine."}
+{"id": 91, "query_en": "Use the points and normals to build a surface using the Poisson Surface reconstruction approach."}
+{"id": 92, "query_en": "Get the netnode used to store settings metadata in the current IDB. Note that this implicitly uses the open IDB via the idc iterface."}
+{"id": 93, "query_en": "Fetch information about a channel."}
+{"id": 94, "query_en": "Used by cache to get a unique key per URL"}
+{"id": 95, "query_en": "List all directories at a given root"}
+{"id": 96, "query_en": "Takes an HTML-like binary string as input and returns a binary string of the same length with all tags replaced by whitespace. This also detects script and style tags, and"}
+{"id": 97, "query_en": "Partition coll into groups of size n."}
+{"id": 98, "query_en": "Find files using :attr:`finders` registry. The ``item`` parameter can be an instance of :class:`~gears.asset_attributes.AssetAttributes` class, a path to the asset or a logical path to the asset. If ``item`` is"}
+{"id": 99, "query_en": "Find the id of a group given its name by iterating on the list of subscriptions"}
+{"id": 100, "query_en": "Returns list of json compatible states of the RichMessage instance nested controls."}

@@ -1,0 +1,41 @@
+[project]
+name = "semsearch"
+version = "0.1.0"
+description = "Гибридный семантический поиск программного кода по запросам на русском языке"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["."]
+# корневой .gitignore репозитория игнорирует каталог course-кода, поэтому ruff
+# проверяет файлы независимо от git
+respect-gitignore = false
+extend-exclude = ["var", "tmp"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "C4", "RET", "PTH", "N"]
+
+[tool.mypy]
+python_version = "3.12"
+files = ["semsearch", "tests"]
+strict = true
+warn_unreachable = true
+show_error_codes = true
+pretty = true
+
+[[tool.mypy.overrides]]
+module = ["transformers.*", "datasets.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["semsearch"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true

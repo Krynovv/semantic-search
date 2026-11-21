@@ -1,0 +1,100 @@
+{"id": 1, "query_en": "Log-joint probability given a state's log-probability and momentum.", "query_ru": "Лог-соединенная вероятность с учетом лог-вероятности и импульса состояния."}
+{"id": 2, "query_en": "Resolves an option value into options.", "query_ru": "Разрешает значение опциона в опции."}
+{"id": 3, "query_en": "r\"\"\" Sets the node data.", "query_ru": "r\"\"\" устанавливает данные узлов."}
+{"id": 4, "query_en": "Generator that decrypts a content stream using AES 256 in CBC mode.", "query_ru": "Генератор, который расшифровывает поток контента с использованием AES 256 в режиме CBC."}
+{"id": 5, "query_en": "Create a union (and also shift if desired) of all input `Schedule`s.", "query_ru": "Создать союз (и также сместить, если желательно) всех входящих `Schedule`s."}
+{"id": 6, "query_en": "Return dict describing the context of this package", "query_ru": "Возвратный текст, описывающий контекст данного пакета"}
+{"id": 7, "query_en": "Starts a kernel process and configures the manager to use it.", "query_ru": "Запускает процесс ядра и настраивает менеджера на его использование."}
+{"id": 8, "query_en": "Read config's variables and apply their values to all its properties", "query_ru": "Прочитайте переменные конфигурации и примените их значения ко всем ее свойствам"}
+{"id": 9, "query_en": "str: The title for the current frame.", "query_ru": "str: Название текущей рамки."}
+{"id": 10, "query_en": "Save the current database into the inactive-db.json file.", "query_ru": "Сохранить текущую базу данных в файле inactive-db.json."}
+{"id": 11, "query_en": "Adds argument for config to existing argparser", "query_ru": "Добавляет аргумент для конфигурации к существующему argparser"}
+{"id": 12, "query_en": "This endpoint streams the contents of a file in an allocation directory.", "query_ru": "Эта конечная точка передает содержимое файла в каталог распределения."}
+{"id": 13, "query_en": "Returns index transforms for ``name``.", "query_ru": "Индекс возврата преобразуется для ``name``."}
+{"id": 14, "query_en": "Receiver for request-rejected signal to send email notification.", "query_ru": "Приемник для запроса отклоненного сигнала для отправки уведомления по электронной почте."}
+{"id": 15, "query_en": "Flat plane parameterization", "query_ru": "Параметризация плоской плоскости"}
+{"id": 16, "query_en": "Return True if arg is 'on' or 1 and False arg is 'off' or 0. Any other value is raises ValueError.", "query_ru": "Возвращение True, если arg 'on' или 1 и False arg 'off' или 0. Любое другое значение повышает ValueError."}
+{"id": 17, "query_en": "Returns response and number of retries", "query_ru": "Возвращает ответ и количество повторных попыток"}
+{"id": 18, "query_en": "Create the circuits to rotate to points in phase space Args: circuit (QuantumCircuit): The circuit to be appended with tomography state preparation and/or measurements. phis (np.matrix[[complex]]): phis thetas (np.matrix[[complex]]): thetas", "query_ru": "Создать схемы для вращения в точках в фазовом пространстве Арг: схема (Квантовый цирк): схема, которая должна быть прикреплена к томографической подготовке и/или измерениям. phis (np.matrix[[комплекс]]): phis thetas (np.matrix[[комплекс]]): thetas"}
+{"id": 19, "query_en": "Add aitoff (https://en.wikipedia.org/wiki/Aitoff_projection) projection", "query_ru": "Добавить проекцию Aitoff (https://en.wikipedia.org/wiki/Aitoff_projection)"}
+{"id": 20, "query_en": "Get the message symbol of the given message id", "query_ru": "Получить символ сообщения данного идентификатора сообщения"}
+{"id": 21, "query_en": "Mark the name as consumed and delete it from the to_consume dictionary", "query_ru": "Отметьте название как употребленное и удалите его из словаря to_consume"}
+{"id": 22, "query_en": "Gets the next colour in the Geckoboard colour list.", "query_ru": "Получает следующий цвет в списке цветов Geckoboard."}
+{"id": 23, "query_en": "Overrideable function that generates the colors to be used by various borderstyles.", "query_ru": "Отрицательная функция, которая генерирует цвета для использования различными пограничными стилями."}
+{"id": 24, "query_en": "Converts the text category to a tasks.Category instance.", "query_ru": "Преобразует категорию текста в задачи.Инстанцию категории."}
+{"id": 25, "query_en": "Dispatch msg to appropriate recv_foo handler.", "query_ru": "Отправить сообщение в соответствующий обработчик recv_foo."}
+{"id": 26, "query_en": "Imports a specific query from the rdbms to hdfs", "query_ru": "Импортирует конкретный запрос из rdbms в hdfs"}
+{"id": 27, "query_en": "Return the referer aka the WHOIS server of the current domain extension.", "query_ru": "Возвращайте ссылку или сервер WHOIS текущего доменного расширения."}
+{"id": 28, "query_en": "Creates a PDF text stream sandwich.", "query_ru": "Создает бутерброд PDF текстового потока."}
+{"id": 29, "query_en": "Pure-Python implementation of itertools.combinations(l, 2).", "query_ru": "Прямой Python реализация itertools.combinations ((l, 2)."}
+{"id": 30, "query_en": "Export the CRL as a string.", "query_ru": "Экспортировать CRL в виде строки."}
+{"id": 31, "query_en": "Return RGBA values of color c", "query_ru": "Возвращение значения RGBA цвета c"}
+{"id": 32, "query_en": "Define a single season and assign a schedule", "query_ru": "Определить один сезон и назначить график"}
+{"id": 33, "query_en": "collection search will list all containers for a specific collection. We assume query is the name of a collection", "query_ru": "поиск коллекции будет перечислять все контейнеры для конкретной коллекции."}
+{"id": 34, "query_en": "Return a list of the stargazers of a GitHub repo", "query_ru": "Вернуть список звездных зрителей репо GitHub"}
+{"id": 35, "query_en": "Obtain peaks from a novelty curve using an adaptive threshold.", "query_ru": "Получить пики из кривой новизны с помощью адаптивного порога."}
+{"id": 36, "query_en": "Creates a copy of a given endpoint with a new service name.", "query_ru": "Создает копию данного конечного пункта с новым именем службы."}
+{"id": 37, "query_en": "Computes E[log(det(X))] under this Wishart distribution.", "query_ru": "Вычисляет E[log(det(X))] в рамках этого распределения Wishart."}
+{"id": 38, "query_en": "For a composite instruction, reverse the order of sub-gates.", "query_ru": "Для сложной инструкции, переверните порядок подводов."}
+{"id": 39, "query_en": "Recursively find a menu item by its id (useful for event handlers)", "query_ru": "Повторяется поиск элемента меню по его идентификатору (полезный для управляющих событиями)"}
+{"id": 40, "query_en": "Convert spherical to Cartesian coordinates. The input can be scalars or 1-dimensional numpy arrays. Note that the angle coordinates follow the astronomical convention of using elevation (declination, latitude) rather than", "query_ru": "Конвертировать сферические на картезианские координаты. Ввод может быть скалярными или одномерными нумпическими массивами. Обратите внимание, что угловые координаты следуют астрономической конвенции использования высоты (деклинации, широты) вместо"}
+{"id": 41, "query_en": "Given a list of format specifiers, returns the final access path (e.g. a.b.c[0][1]).", "query_ru": "Учитывая список спецификаторов формата, возвращает конечный путь доступа (например, a.b.c[0][1])."}
+{"id": 42, "query_en": "Returns read only property for band nodata value, assuming single band rasters for now.", "query_ru": "Возвращение читает только свойство для значения ленточных нодатов, предполагая, что на данный момент один ленточный растер."}
+{"id": 43, "query_en": "Push data broadcasted from gateway to device", "query_ru": "Перемещение передаваемых данных из шлюза на устройство"}
+{"id": 44, "query_en": "Create a new temporary file and write some initial text to it.", "query_ru": "Создайте новый временный файл и напишите на него первоначальный текст."}
+{"id": 45, "query_en": "Return the 'filtered path'", "query_ru": "Возвращайте \"фильтрованный путь\""}
+{"id": 46, "query_en": "Pitch-shift the waveform by `n_steps` half-steps.", "query_ru": "Переключение формы волны на `n_steps ` половины шагов."}
+{"id": 47, "query_en": "Export a numpy array to a HDF5 file.", "query_ru": "Экспортируйте нумпи массив в файл HDF5."}
+{"id": 48, "query_en": "Execute a Perceval job on RQ.", "query_ru": "Выполнить задачу \"Перцевал\" на RQ."}
+{"id": 49, "query_en": "Give the annotations at the given time. When the tier contains reference annotations this will be returned, check :func:`get_ref_annotation_data_at_time` for the format.", "query_ru": "Если уровень содержит ссылочные отметки, это будет возвращено, проверить: func:`get_ref_annotation_data_at_time` для формата."}
+{"id": 50, "query_en": "Fetches all the prices for the given arguments", "query_ru": "Привлекает все цены за данные аргументы"}
+{"id": 51, "query_en": "send gene list to enrichr server", "query_ru": "отправлять список генов на сервер enrichr"}
+{"id": 52, "query_en": "Associate the header to the control (it could be recreated)", "query_ru": "Присоединить заголовок к управляющему устройству (может быть воссоздано)"}
+{"id": 53, "query_en": "Get the comments of the given bugs.", "query_ru": "Получите комментарии по данным насекомым."}
+{"id": 54, "query_en": "Return a list of enrollments for the passed user regid.", "query_ru": "Возвращайте список записей для прошедшего пользовательского регида."}
+{"id": 55, "query_en": "Selects odd-even nuclei from the table", "query_ru": "Выбирает из таблицы нечетные ядра"}
+{"id": 56, "query_en": "Connect internal signal to port item, this connection is used by simulator and only output port items will be connected", "query_ru": "Подключить внутренний сигнал к пункту порта, это соединение используется симулятором и будет подключено только пункты выходного порта"}
+{"id": 57, "query_en": "Adds or updates a typed JSON document in a specific index, making it searchable. `<http://elasticsearch.org/guide/reference/api/index_/>`_", "query_ru": "Добавляет или обновляет напечатанный JSON-документ в конкретный индекс, делая его поисковым. `<http://elasticsearch.org/guide/reference/api/index_/>`_"}
+{"id": 58, "query_en": "Flatten lists of indices and ensure bounded by a known dim.", "query_ru": "Плоские списки индексов и гарантируют, что они ограничены известным темностью."}
+{"id": 59, "query_en": "Retrieve the data from the database.", "query_ru": "Получить данные из базы данных."}
+{"id": 60, "query_en": "Load a model from the server.", "query_ru": "Загрузите модель с сервера."}
+{"id": 61, "query_en": "Returns mappable data for a random subset of voxels.", "query_ru": "Возвращает картографируемые данные для случайного подмножества вокселей."}
+{"id": 62, "query_en": "Convenience method for selecting a character.", "query_ru": "Способ удобства для выбора персонажа."}
+{"id": 63, "query_en": "Defines the security context", "query_ru": "Определяет контекст безопасности"}
+{"id": 64, "query_en": "Encodes to hexadecimal ids to big-endian binary.", "query_ru": "Коды на шестидесятые идентификаторы на бинарные большие числа."}
+{"id": 65, "query_en": "Merge `svg_file2` in `svg_file1` in the given positions `x_coord`, `y_coord` and `scale`.", "query_ru": "Слиять `svg_file2` в `svg_file1` в данных позициях `x_coord`, `y_coord` и `scale`."}
+{"id": 66, "query_en": "A feeder that runs in distinct thread in main process.", "query_ru": "Питатель, который работает в отдельной ните в основном процессе."}
+{"id": 67, "query_en": "Returns a simple fragment", "query_ru": "Возвращает простой фрагмент"}
+{"id": 68, "query_en": "Finds files at the specified path / prefix, either on S3 or on the local filesystem.", "query_ru": "Найдет файлы на указанном маршруте / префиксе, либо на S3 или на локальной файловой системе."}
+{"id": 69, "query_en": "Extracts indentation information for a continued indent.", "query_ru": "Извлекает информацию о зарезке для продолжения зарезки."}
+{"id": 70, "query_en": "Check to see if the default cert dir/file environment vars are present.", "query_ru": "Проверяйте наличие ориентировочной среды cert dir/file vars."}
+{"id": 71, "query_en": "Connect to the database and get new session number.", "query_ru": "Подключайтесь к базе данных и получите новый номер сеанса."}
+{"id": 72, "query_en": "set the name of the currently analyzed module and init statistics for it", "query_ru": "установить название в настоящее время анализируемого модуля и статистику init для него"}
+{"id": 73, "query_en": "Error message when subcommand asked for but doesn't exist", "query_ru": "Сообщение об ошибке при запросе подкомандующего, но не существует"}
+{"id": 74, "query_en": "Gets a postcode object from the lat and long. :param lat: The latitude to look up. :param long: The longitude to look up. :return: The mapping corresponding to the lat", "query_ru": "Получит объект почтового кода от lat и long. :param lat: Ширина, чтобы посмотреть вверх. :param long: Ширина, чтобы посмотреть вверх. :return: Картировка, соответствующая lat"}
+{"id": 75, "query_en": "Renders the chart context and axes into the dict data", "query_ru": "Преобразует контекст диаграммы и оси в диктные данные"}
+{"id": 76, "query_en": "check if name combined with test prefixes or postfixes is found anywhere in the list of basenames", "query_ru": "проверить , есть ли название , сочетаемое с тестовыми префиксами или корректировками , где угодно в списке базовых имен ."}
+{"id": 77, "query_en": "When an event from enaml occurs, send it out the websocket so the client's browser can update accordingly.", "query_ru": "Когда происходит событие из enaml, отправьте его в веб-сокет, чтобы браузер клиента мог соответственно обновляться."}
+{"id": 78, "query_en": "Test the student code.", "query_ru": "Проверьте код студента."}
+{"id": 79, "query_en": "Clean up files, remove builds.", "query_ru": "Убирайте файлы, удаляйте сборки."}
+{"id": 80, "query_en": "Add a message to the futures executor.", "query_ru": "Добавьте сообщение к исполнителю фьючерсов."}
+{"id": 81, "query_en": "Create a python value from a BridgePoint constant.", "query_ru": "Создать значение питона из постоянной BridgePoint."}
+{"id": 82, "query_en": "theory : LBRACKET superclauses_sum RBRACKET | LBRACKET superclauses_sum RBRACKET literal_list", "query_ru": "Теория: LBRACKET superclauses_sum RBRACKET ♪ LBRACKET superclauses_sum RBRACKET literal_list"}
+{"id": 83, "query_en": "Print log message *msg* to stdout.", "query_ru": "Напечатать сообщение в журнале *msg* на stdout."}
+{"id": 84, "query_en": "Make a variable a list if it is not already", "query_ru": "Сделайте перечень переменной , если она еще не существует"}
+{"id": 85, "query_en": "Like a bulk :meth:`put`.", "query_ru": "Как в большом количестве:meth:`put`."}
+{"id": 86, "query_en": "Extracts pycrypto X509 objects from SSL certificates chain string.", "query_ru": "Извлекает объекты pycrypto X509 из цепочки цепочки сертификатов SSL."}
+{"id": 87, "query_en": "Get information about a single role, for the passed account SIS ID.", "query_ru": "Получить информацию о единой роли, для идентификатора СИС переданного счета."}
+{"id": 88, "query_en": "Preprocess a panel of genes.", "query_ru": "Предварительная обработка панели генов."}
+{"id": 89, "query_en": "Take an existing Skype token and refresh it, to extend the expiry time without other credentials.", "query_ru": "Возьмите существующий токен Skype и обновьте его, чтобы продлить срок действия без других аккредитаций."}
+{"id": 90, "query_en": "Get cryptographic engine.", "query_ru": "Сделайте криптографический двигатель."}
+{"id": 91, "query_en": "Use the points and normals to build a surface using the Poisson Surface reconstruction approach.", "query_ru": "Используйте точки и нормы для построения поверхности с использованием подхода по реконструкции Poisson Surface."}
+{"id": 92, "query_en": "Get the netnode used to store settings metadata in the current IDB. Note that this implicitly uses the open IDB via the idc iterface.", "query_ru": "Получите сетевой узел, используемый для хранения метаданных настройки в текущем IDB. Обратите внимание, что это косвенно использует открытый IDB через IDc iterface."}
+{"id": 93, "query_en": "Fetch information about a channel.", "query_ru": "Приведи информацию о канале."}
+{"id": 94, "query_en": "Used by cache to get a unique key per URL", "query_ru": "Используется в кеше для получения уникального ключа на URL-адрес"}
+{"id": 95, "query_en": "List all directories at a given root", "query_ru": "Перечислить все каталоги в данном корне"}
+{"id": 96, "query_en": "Takes an HTML-like binary string as input and returns a binary string of the same length with all tags replaced by whitespace. This also detects script and style tags, and", "query_ru": "Принимает входный двойной строк, похожий на HTML, и возвращает двойный строк одинаковой длины со всеми тегами, заменяемыми белым пространством."}
+{"id": 97, "query_en": "Partition coll into groups of size n.", "query_ru": "Разделение на группы размером n."}
+{"id": 98, "query_en": "Find files using :attr:`finders` registry. The ``item`` parameter can be an instance of :class:`~gears.asset_attributes.AssetAttributes` class, a path to the asset or a logical path to the asset. If ``item`` is", "query_ru": "Найти файлы с использованием реестра :attr:`finders`. Параметр ``` может быть примером :класса:`~gears.asset_attributes.AssetAttributes` класса, пути к активу или логического пути к активу. Если ``item`"}
+{"id": 99, "query_en": "Find the id of a group given its name by iterating on the list of subscriptions", "query_ru": "Найти идентификатор группы с названием , повторяя в списке подписей"}
+{"id": 100, "query_en": "Returns list of json compatible states of the RichMessage instance nested controls.", "query_ru": "Возвращает список совместимых с json состояний гнездных элементов управления в экземпляре RichMessage."}
