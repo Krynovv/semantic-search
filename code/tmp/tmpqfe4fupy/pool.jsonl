@@ -1,0 +1,3 @@
+{"id": "test-1", "code": "def status_text(self):\n    return self.status"}
+{"id": "test-2", "code": "def add(a, b):\n    return a + b"}
+{"id": "test-3", "code": "def parse_xml(s):\n    return s"}

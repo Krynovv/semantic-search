@@ -68,3 +68,19 @@ class TranslateConfig:
     max_new_tokens: int = 256
     num_beams: int = 4
     dtype: str = "float32"
+
+
+@dataclass(frozen=True)
+class EvalConfig:
+    """Параметры оценки поиска (Шаг 2) и эмбеддингов по умолчанию."""
+
+    model_name: str = "intfloat/multilingual-e5-base"
+    query_prefix: str = "query: "
+    passage_prefix: str = "passage: "
+    device: str = "cpu"
+    batch_size: int = 32
+    max_seq_length: int = 512
+    k: int = 10
+    """Глубина выдачи: MRR@10, Recall@10, nDCG@10 считаются по первым k."""
+    bm25_k1: float = 1.5
+    bm25_b: float = 0.75

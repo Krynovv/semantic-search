@@ -143,3 +143,44 @@ export SEMSEARCH_HOME=/путь/к/хранилищу     # опциональн
   --blind-csv ../results/translation_blind.csv \
   --key-csv ../results/translation_blind_key.csv
 ```
+
+## Шаг 2: базовые варианты поиска
+
+| модуль | что делает |
+|---|---|
+| `semsearch/core/chunk.py` | `CodeChunk(id, code)` — документ индекса |
+| `semsearch/core/index_lexical.py` | BM25 (`rank_bm25`), токенизация `snake_case`/`camelCase`, build/save/load |
+| `semsearch/core/index_dense.py` | `Embedder` (e5, префиксы `query: `/`passage: `) + FAISS IndexFlatIP |
+| `semsearch/core/metrics.py` | MRR@10, Recall@1/5/10, nDCG@10 |
+| `semsearch/eval/run_eval.py` | прогон на test-сплите → `results/baselines.csv` |
+
+Метрики считаются на test-корпусе (5000 функций, `test_pool.jsonl`) и
+глубине выдачи 10. Языковые варианты запросов:
+
+| вариант | запрос | n |
+|---|---|---|
+| `en` | `query_en` (docstring) | 200 |
+| `ru_translated` | `query_ru` (NLLB EN→RU) | 200 |
+| `ru_translated+mt_en` | `query_en_back` (NLLB RU→EN) — только BM25 | 200 |
+| `ru_manual` | ручные запросы, `data/manual_queries.jsonl` | 10 |
+
+EN-набор всегда урезается до id, покрытых RU-переводом, — иначе методы
+сравнивались бы на разных запросах.
+
+```bash
+# отладка: 1000 EN-запросов, без RU (RU-перевода 1000 нет на диске)
+.venv/bin/python -m semsearch.eval.run_eval --method all --limit 1000
+
+# полный baseline (RU-переводы NLLB по 200 запросов, см. DECISIONS §15)
+.venv/bin/python -m semsearch.eval.run_eval --method all \
+  --ru-queries var/data/step2/test_200_nllb_ru.jsonl \
+  --back-queries var/data/step2/test_200_nllb_ru_en.jsonl \
+  --output ../results/baselines.csv
+
+# только один метод (BM25 — секунды, e5 на CPU — ~30 мин на 5000 функций)
+.venv/bin/python -m semsearch.eval.run_eval --method bm25
+```
+
+Проверки: `.venv/bin/python -m pytest`, `.venv/bin/python -m ruff check .`,
+`.venv/bin/python -m mypy --explicit-package-bases`
+(без этого флага mypy видит `__init__.py` в `code/` и читает модули дважды).
