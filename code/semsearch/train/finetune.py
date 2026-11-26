@@ -46,8 +46,8 @@ class TrainConfig:
     """Параметры дообучения: одинаковые для эксперимента (а) и (б)."""
 
     lr: float = 1e-5
-    batch_size: int = 32
-    epochs: int = 3
+    batch_size: int = 16
+    epochs: int = 2
     warmup_steps: int = 500
     max_seq_length: int = 512
     seed: int = 42
@@ -207,12 +207,14 @@ def train_finetune(
         output_dir=str(config.save_dir / "checkpoints"),
         learning_rate=config.lr,
         per_device_train_batch_size=config.batch_size,
+        gradient_accumulation_steps=2,
         num_train_epochs=config.epochs,
         warmup_steps=config.warmup_steps,
         logging_steps=config.eval_every,
         save_strategy="steps",
         save_steps=config.checkpoint_every,
         save_total_limit=2,  # чекпоинт ~1.1 ГБ: нужен для возобновления, старые не нужны
+        fp16=True,
     )
     trainer = _Trainer(
         model=model,
