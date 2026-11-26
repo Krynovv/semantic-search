@@ -169,8 +169,28 @@ class _ValLogger(TrainerCallback):
         self.substep_loss: float | None = None
 
     def on_substep_end(self, args: Any, state: Any, control: Any, **kwargs: Any) -> None:
-        del args, control, kwargs
-        self.substep_loss = state.loss
+        if state.global_step % self.every != 0:
+            return
+
+        recent_loss = None
+        for log in reversed(state.log_history):
+            if "loss" in log:
+                recent_loss = log["loss"]
+                break
+            elif "train_loss" in log:
+                recent_loss = log["train_loss"]
+                break
+
+        metrics = self.evaluator(self.model)
+        
+        # Записываем в CSV
+        self.logger.add(state.global_step, loss=recent_loss, **metrics)
+        
+        # Форматируем вывод для консоли
+        loss_str = f"{recent_loss:.4f}" if recent_loss is not None else "N/A"
+        print(f"[шаг {state.global_step}] loss={loss_str}, {metrics}", flush=True)
+        # del args, control, kwargs
+        # self.substep_loss = state.loss
 
     def on_step_end(self, args: Any, state: Any, control: Any, **kwargs: Any) -> None:
         del args, control, kwargs
@@ -209,6 +229,7 @@ def train_finetune(
         per_device_train_batch_size=config.batch_size,
         gradient_accumulation_steps=4,
         fp16=True,
+        activation_checkpointing=True,
         gradient_checkpointing=True,
         optim="adamw_bnb_8bit",
         num_train_epochs=config.epochs,
