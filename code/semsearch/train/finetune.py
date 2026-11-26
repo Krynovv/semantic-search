@@ -169,9 +169,15 @@ class _ValLogger(TrainerCallback):
         self.substep_loss: float | None = None
 
     def on_substep_end(self, args: Any, state: Any, control: Any, **kwargs: Any) -> None:
+        
+        del args, control, kwargs
+        self.substep_loss = state.loss
+
+    def on_step_end(self, args: Any, state: Any, control: Any, **kwargs: Any) -> None:
+        del args, control, kwargs
         if state.global_step % self.every != 0:
             return
-
+        
         recent_loss = None
         for log in reversed(state.log_history):
             if "loss" in log:
@@ -180,25 +186,15 @@ class _ValLogger(TrainerCallback):
             elif "train_loss" in log:
                 recent_loss = log["train_loss"]
                 break
-
-        metrics = self.evaluator(self.model)
         
+        metrics = self.evaluator(self.model)
+                
         # Записываем в CSV
         self.logger.add(state.global_step, loss=recent_loss, **metrics)
-        
+                
         # Форматируем вывод для консоли
         loss_str = f"{recent_loss:.4f}" if recent_loss is not None else "N/A"
         print(f"[шаг {state.global_step}] loss={loss_str}, {metrics}", flush=True)
-        # del args, control, kwargs
-        # self.substep_loss = state.loss
-
-    def on_step_end(self, args: Any, state: Any, control: Any, **kwargs: Any) -> None:
-        del args, control, kwargs
-        if state.global_step % self.every:
-            return
-        metrics = self.evaluator(self.model)
-        self.logger.add(state.global_step, loss=self.substep_loss, **metrics)
-        print(f"[шаг {state.global_step}] {metrics}", flush=True)
 
 
 def train_finetune(
