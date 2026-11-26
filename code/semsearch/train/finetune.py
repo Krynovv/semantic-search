@@ -46,7 +46,7 @@ class TrainConfig:
     """Параметры дообучения: одинаковые для эксперимента (а) и (б)."""
 
     lr: float = 1e-5
-    batch_size: int = 16
+    batch_size: int = 8
     epochs: int = 2
     warmup_steps: int = 500
     max_seq_length: int = 256
@@ -168,10 +168,10 @@ class _ValLogger(TrainerCallback):
         self.model = model
         self.substep_loss: float | None = None
 
-    def on_substep_end(self, args: Any, state: Any, control: Any, **kwargs: Any) -> None:
+    # def on_substep_end(self, args: Any, state: Any, control: Any, **kwargs: Any) -> None:
         
-        del args, control, kwargs
-        self.substep_loss = state.loss
+    #     del args, control, kwargs
+    #     self.substep_loss = state.loss
 
     def on_step_end(self, args: Any, state: Any, control: Any, **kwargs: Any) -> None:
         del args, control, kwargs
@@ -225,8 +225,10 @@ def train_finetune(
         per_device_train_batch_size=config.batch_size,
         gradient_accumulation_steps=4,
         fp16=True,
-        activation_checkpointing=True,
+        fp16_full_eval=False,
+        # activation_checkpointing=True,
         gradient_checkpointing=True,
+        gradient_checkpointing_kwargs={"use_reentrant": False},
         optim="adamw_bnb_8bit",
         num_train_epochs=config.epochs,
         warmup_steps=config.warmup_steps,
@@ -235,6 +237,8 @@ def train_finetune(
         save_steps=config.checkpoint_every,
         save_total_limit=2,  # чекпоинт ~1.1 ГБ: нужен для возобновления, старые не нужны
         load_best_model_at_end=False,
+        dataloader_pin_memory=True,
+        remove_unused_columns=False,
     )
     trainer = _Trainer(
         model=model,
