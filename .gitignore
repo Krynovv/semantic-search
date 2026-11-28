@@ -21,3 +21,6 @@ titlepage.tex
 
 *.safetensors
 nllb_translation_results/cache/
+semsearch_download/
+*.safetensors
+*.jsonl

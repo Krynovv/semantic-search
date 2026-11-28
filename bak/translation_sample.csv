@@ -1,0 +1,101 @@
+﻿query_en,query_ru,rating
+Log-joint probability given a state's log-probability and momentum.,Вероятность логарифмического совпадения с учетом вероятности логарифма и динамики.,2
+Resolves an option value into options.,Определяет стоимость опциона в опционах.,2
+"r"""""" Sets the node data.","r"""""" Устанавливает данные узла.",4
+Generator that decrypts a content stream using AES 256 in CBC mode.,"Генератор, который расшифровывает поток контента с использованием AES 256 в режиме CBC.",5
+Create a union (and also shift if desired) of all input `Schedule`s.,"Создать союз (а также, при желании, сменить) всех входных данных.",2
+Return dict describing the context of this package,"Задикт возврата, описывающий контекст этого пакета",1
+Starts a kernel process and configures the manager to use it.,Начинает процесс ядер и настраивает менеджера на его использование.,2
+Read config's variables and apply their values to all its properties,Прочитать переменные conig и применить их значения ко всем его свойствам.,3
+str: The title for the current frame.,str: Заголовок нынешней структуры.,2
+Save the current database into the inactive-db.json file.,Сохранить текущую базу данных в файл неактивного db.json.,4
+Adds argument for config to existing argparser,Добавляет аргумент для конига к существующему argparser,3
+This endpoint streams the contents of a file in an allocation directory.,Этот конечный пункт пересылает содержимое файла в каталог распределения.,2
+Returns index transforms for ``name``.,"Индекс доходности преобразуется для ""имя"".",1
+Receiver for request-rejected signal to send email notification.,Получатель запрос-отклоненный сигнал для направления уведомления по электронной почте.,3
+Flat plane parameterization,Плоская параметризация плоскости,3
+Return True if arg is 'on' or 1 and False arg is 'off' or 0. Any other value is raises ValueError.,"Вернуть Вернуть Верно, если arg 'n' или 1, и False arg 'out' или 0. Любое другое значение повышает значение Error.",1
+Returns response and number of retries,Ответ на вопрос о возвращении и количество возвратов,2
+Create the circuits to rotate to points in phase space Args: circuit (QuantumCircuit): The circuit to be appended with tomography state preparation and/or measurements. phis (np.matrix[[complex]]): phis thetas (np.matrix[[complex]]): thetas,"Создание схем для вращения в точках фазового пространства Args: цепь (Quantum Circuit): цепь, которая должна быть приложена с подготовкой и/или измерениями состояния томографии. fhis (np.matrix[[comlex]): phis тетаs (np.matrix[[complex]): тетаs",2
+Add aitoff (https://en.wikipedia.org/wiki/Aitoff_projection) projection,Добавить прогноз Aitoff (https://en.wikipedia.org/wiki/Aitoff_projection),2
+Get the message symbol of the given message id,"Найти символ сообщения, указанного идентификатора сообщения",4
+Mark the name as consumed and delete it from the to_consume dictionary,Отметьте имя как потребленное и удалите его из словаря &quot; consume &quot; .,3
+Gets the next colour in the Geckoboard colour list.,Получит следующий цвет в цветовом списке Геккоборда.,3
+Overrideable function that generates the colors to be used by various borderstyles.,"Сверхскоростная функция, которая генерирует цвета, используемые различными пограничными стилями.",2
+Converts the text category to a tasks.Category instance.,Преобразование текстовой категории в задачи. Пример классификации.,2
+Dispatch msg to appropriate recv_foo handler.,Отправьте msg соответствующему оператору Rev_foo.,2
+Imports a specific query from the rdbms to hdfs,Импортирует конкретный запрос из rdbms в hdfs,4
+Return the referer aka the WHOIS server of the current domain extension.,Верните рефереру ака сервер WHOIS текущего расширения домена.,3
+Creates a PDF text stream sandwich.,Создаёт сэндвич с текстовым потоком PDF.,3
+"Pure-Python implementation of itertools.combinations(l, 2).","Внедрение итерструментов с чистым Python.combinations(l, 2).",2
+Export the CRL as a string.,Экспортировать CRL как нитку.,1
+Return RGBA values of color c,Возвращение значений цвета RGBA c,4
+Define a single season and assign a schedule,Определить один сезон и назначить график,3
+collection search will list all containers for a specific collection. We assume query is the name of a collection,"Поиск будет содержать список всех контейнеров для конкретной коллекции. Мы предполагаем, что запрос - это название коллекции",4
+Return a list of the stargazers of a GitHub repo,Верните список звёздных репо GitHub,2
+Obtain peaks from a novelty curve using an adaptive threshold.,Получение пиковых значений из новой кривой с использованием адаптивного порогового значения.,2
+Creates a copy of a given endpoint with a new service name.,Создает копию данного конечного пункта с новым сервисным именем.,2
+Computes E[log(det(X))] under this Wishart distribution.,Вычисляет E [log(det(X))] в рамках этого распределения Wishart.,4
+"For a composite instruction, reverse the order of sub-gates.",Для составной инструкции поменять порядок подводов.,2
+Recursively find a menu item by its id (useful for event handlers),Рекурсивно найдите пункт меню по его идентификатору (полезный для операторов событий),2
+"Convert spherical to Cartesian coordinates. The input can be scalars or 1-dimensional numpy arrays. Note that the angle coordinates follow the astronomical convention of using elevation (declination, latitude) rather than","Преобразовать сферические координаты в координаты Картесиана. Ввод может быть скалярами или одномерными напыщенными массивами. Заметьте, что координаты угла соответствуют астрономическому стилю использования возвышения (уменьшение, широта), а не аномалии.",2
+"Given a list of format specifiers, returns the final access path (e.g. a.b.c[0][1]).","С учетом списка составителей форматов возвращает окончательный путь доступа (например, a.b.c[0] [1]).",3
+"Returns read only property for band nodata value, assuming single band rasters for now.","Возвращение считывает только собственность для значения nodata, исходя из предположения о том, что на данный момент одна группа Rasters.",1
+Push data broadcasted from gateway to device,"Введите данные, передаваемые от шлюза к устройству",3
+Create a new temporary file and write some initial text to it.,Создать новый временный файл и написать к нему первоначальный текст.,4
+Return the 'filtered path',"Верните ""фильтрованный путь""",4
+Pitch-shift the waveform by `n_steps` half-steps.,"Питч-переключает волновую форму на ""n_steps"" полушарий.",1
+Export a numpy array to a HDF5 file.,Экспортировать внушительный массив в файл HDF5.,1
+Execute a Perceval job on RQ.,Выполняйте Персевальскую работу на RQ.,2
+"Give the annotations at the given time. When the tier contains reference annotations this will be returned, check :func:`get_ref_annotation_data_at_time` for the format.","Отправьте аннотации в данное время. Когда уровень содержит справочные аннотации, они будут возвращены, проверьте : func:'get_ref_annotation_data_at_time' для формата.",3
+Fetches all the prices for the given arguments,Приводит все цены для конкретных аргументов,3
+send gene list to enrichr server,Отправить список генов на обогатительный сервер,2
+Associate the header to the control (it could be recreated),Присоединить заголовок к органу управления (его можно было бы воссоздать),3
+Get the comments of the given bugs.,Возьмите комментарии этих жуков.,1
+Return a list of enrollments for the passed user regid.,Возвращайте список зарегистрированных пользователей.,3
+Selects odd-even nuclei from the table,Выбрать нечетные ядра из таблицы,2
+"Connect internal signal to port item, this connection is used by simulator and only output port items will be connected","Подключите внутренний сигнал к порту, это подсоединение используется имитатором, и подключится только выходной порт.",3
+"Adds or updates a typed JSON document in a specific index, making it searchable. `<http://elasticsearch.org/guide/reference/api/index_/>`_","Добавляет или обновляет напечатанный документ JSPON в конкретном индексе, делая его доступным для поиска. «http://elasticsearch.org/guide/reference/api/index_/>_",2
+Flatten lists of indices and ensure bounded by a known dim.,"Плоские перечни индексов и обеспечение того, чтобы они были ограничены известной туманностью.",1
+Retrieve the data from the database.,Возьмите данные из базы данных.,4
+Load a model from the server.,Загрузите модель с сервера.,4
+Returns mappable data for a random subset of voxels.,Возвращает картируемые данные для случайного подмножества вокселей.,4
+Convenience method for selecting a character.,Метод удобства для выбора персонажа.,3
+Defines the security context,Определение контекста безопасности,4
+Encodes to hexadecimal ids to big-endian binary.,Коды для гексадековых идентификаторов для двоичного двоичного большого размера.,2
+"Merge `svg_file2` in `svg_file1` in the given positions `x_coord`, `y_coord` and `scale`.","Объединить ""svg_file2"" в ""svg_file1"" в заданных позициях ""x_cord"", ""y_cord"" и ""max"".",1
+A feeder that runs in distinct thread in main process.,"Подпитка, которая работает в разных нитках основного процесса.",1
+Returns a simple fragment,Возвращает простой фрагмент,5
+"Finds files at the specified path / prefix, either on S3 or on the local filesystem.","Находит файлы на заданной траектории / префикса либо на S3, либо на локальной файловой системе.",4
+Extracts indentation information for a continued indent.,Выдержки из информации о втяжках для продолжения втяжки.,1
+Check to see if the default cert dir/file environment vars are present.,"Проверьте, есть ли в среде сервированных дир/файлов.",1
+Connect to the database and get new session number.,Подключитесь к базе данных и найдите новый номер сеанса.,4
+set the name of the currently analyzed module and init statistics for it,определить название рассматриваемого модуля и включить в него статистические данные,3
+Error message when subcommand asked for but doesn't exist,"Сообщение об ошибке, когда подкоманда просила, но не существует",3
+Gets a postcode object from the lat and long. :param lat: The latitude to look up. :param long: The longitude to look up. :return: The mapping corresponding to the lat,"Получает почтовый объект из лата и длинного. : парам лат: широта, чтобы посмотреть вверх. : парам длинный: долгота, чтобы посмотреть вверх. : Возвращение: карта, соответствующая латуне",1
+Renders the chart context and axes into the dict data,Оформляет контекст карты и осей в данные диктофона,1
+check if name combined with test prefixes or postfixes is found anywhere in the list of basenames,"проверить, находится ли имя в сочетании с испытательными префиксами или послефиксами где-либо в списке названий оснований",3
+"When an event from enaml occurs, send it out the websocket so the client's browser can update accordingly.","Когда происходит событие из enaml, отправьте его на веб-сокет, чтобы браузер клиента мог соответствующим образом обновить его.",4
+Test the student code.,Проверь студенческий код.,4
+"Clean up files, remove builds.","Уберите файлы, уберите здания.",2
+Add a message to the futures executor.,Добавьте сообщение к фьючерсному исполнительу.,2
+Create a python value from a BridgePoint constant.,Создать Python значение из константы BridgePoint.,4
+theory : LBRACKET superclauses_sum RBRACKET | LBRACKET superclauses_sum RBRACKET literal_list,Теория: LBRACKET superclauses_sume RBRACKET : LBRACKET superclauses_sume RBRACKET filital_ list,2
+Print log message *msg* to stdout.,Напечатать сообщение из журнала *msg* в stadout.,3
+Make a variable a list if it is not already,"Сделать переменную список, если он еще не готов.",3
+Like a bulk :meth:`put`.,Как оптовая : meth:'put'.,3
+Extracts pycrypto X509 objects from SSL certificates chain string.,Вычитает шифро X509 объектов из цепной строки сертификатов SSL.,2
+"Get information about a single role, for the passed account SIS ID.",Получите информацию об одной роли для пересылаемого счёта SIS ID.,3
+Preprocess a panel of genes.,Обработайте панель генов.,4
+"Take an existing Skype token and refresh it, to extend the expiry time without other credentials.","Возьмите существующий символ Skype и освежите его, чтобы продлить срок действия без других полномочий.",2
+Get cryptographic engine.,Возьми криптографический двигатель.,2
+Use the points and normals to build a surface using the Poisson Surface reconstruction approach.,"Используйте точки и нормы, чтобы построить поверхность, используя метод восстановления поверхности Пуазона.",2
+Get the netnode used to store settings metadata in the current IDB. Note that this implicitly uses the open IDB via the idc iterface.,"Пользуйтесь Netnode, используемой для хранения настроек метаданных в нынешнем IDB. Заметьте, что это имплицитно использует открытый IDB с помощью идентификатора iterface.",2
+Fetch information about a channel.,Возьмите информацию о канале.,4
+Used by cache to get a unique key per URL,Используется кэшом для получения уникального ключа на URL,4
+List all directories at a given root,Перечислить все каталоги по заданному корню,4
+"Takes an HTML-like binary string as input and returns a binary string of the same length with all tags replaced by whitespace. This also detects script and style tags, and","Принимает бинарную строку, похожую на HTML, в качестве входа и возвращает двоичную строку одинаковой длины со всеми тегами, заменяемыми белым пространством. Это также обнаруживает скрипт и стиль тегов, и",3
+Partition coll into groups of size n.,Разделение на группы размера n.,4
+"Find files using :attr:`finders` registry. The ``item`` parameter can be an instance of :class:`~gears.asset_attributes.AssetAttributes` class, a path to the asset or a logical path to the asset. If ``item`` is","Найти файлы с использованием :attr: ""finders' country. Параметры ""пункта"" могут быть примером: класс: '~ gears.attributes_atributes.AssetAttributes' класса, путь к активу или логический путь к активу.",2
+Find the id of a group given its name by iterating on the list of subscriptions,Найти идентификатор группы с указанием его имени путем итерации в списке подписчиков,2
+Returns list of json compatible states of the RichMessage instance nested controls.,"Список состояний, совместимых с Json в деле RichMessage.",2

@@ -1,0 +1,8 @@
+﻿config,method,language,split,n_queries,corpus_size,MRR@10,Recall@1,Recall@5,Recall@10,nDCG@10
+bm25,bm25,en,test,200,5000,0.5427,0.4700,0.6550,0.6900,0.5784
+bm25,bm25,ru_translated,test,200,5000,0.2137,0.1700,0.2700,0.3150,0.2378
+bm25,bm25,ru_manual,test,10,5000,0.1200,0.1000,0.2000,0.2000,0.1387
+bm25+mt_en,bm25,ru_translated,test,200,5000,0.3793,0.3100,0.4700,0.5200,0.4133
+e5,dense,en,test,200,5000,0.7545,0.6750,0.8650,0.8850,0.7868
+e5,dense,ru_translated,test,200,5000,0.5384,0.4600,0.6450,0.7000,0.5773
+e5,dense,ru_manual,test,10,5000,0.9500,0.9000,1.0000,1.0000,0.9631
